@@ -5,7 +5,6 @@ _Some steps before starting a new application using typescript and React_
 ### 1. CRA
 ```
 yarn create react-app my-app --template typescript
-yarn remove @testing-library/jest-dom @testing-library/react @testing-library/user-event
 ```
 
 ### 2. Copy config files from this package to my-app directory
