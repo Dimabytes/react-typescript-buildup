@@ -1,4 +1,4 @@
-##React typescript buildup
+# React typescript buildup
 
 _Some steps before starting a new application using typescript and React_
 
