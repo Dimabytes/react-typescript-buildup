@@ -12,7 +12,7 @@ yarn create react-app my-app --template typescript
 ### 3. Install eslint, prettier
 
 ```
-yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sonarjs prettier eslint@^6.6.0 @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
+yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sonarjs prettier eslint@^6.6.0 @typescript-eslint/parser@^3.10.1 @typescript-eslint/eslint-plugin@^3.10.1 -D
 ```
 
 ### 4. Enzyme test (optional)
