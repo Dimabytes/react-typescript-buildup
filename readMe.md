@@ -4,7 +4,8 @@ _Some steps before starting a new application using typescript and React_
 
 ### 1. CRA
 ```
-yarn create react-app my-app --template typescript
+yarn create react-app reatom-todo --template typescript
+
 ```
 
 ### 2. Copy config files from this package to my-app directory
@@ -12,5 +13,9 @@ yarn create react-app my-app --template typescript
 ### 3. Install eslint, prettier
 
 ```
-yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sonarjs prettier eslint@^6.6.0 @typescript-eslint/parser@^3.10.1 @typescript-eslint/eslint-plugin@^3.10.1 -D
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript eslint-plugin-sonarjs eslint-plugin-jest
+
+npx install-peerdeps --dev eslint-config-airbnb
+
+yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
